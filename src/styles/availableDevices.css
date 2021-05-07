@@ -1,0 +1,36 @@
+.availableDeviceWrapper {
+  padding: 5rem;
+  text-align: center;
+}
+.availableDeviceWrapper h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.deviceImage {
+  width: 100%;
+}
+
+.deviceCol {
+}
+
+.deviceDiv {
+  width: 90%;
+  text-align: center;
+  margin: 0 20px;
+}
+.deviceDiv ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.deviceDiv ul li {
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: hsla(0, 0%, 75.3%, 0.8);
+}
+
+.deviceRow {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}

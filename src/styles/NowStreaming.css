@@ -1,0 +1,47 @@
+.nowStreaming {
+  padding: 5rem;
+}
+
+.nowStreaming-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nowStreaming-image {
+  flex: 1 1 auto;
+}
+
+.nowStreaming-image img {
+  width: 100%;
+}
+
+.nowStreaming-content {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nowStreaming-content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.nowStreaming-content p {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.nowStreaming-content button {
+  width: fit-content;
+  padding: 1.2rem 3rem;
+  border-radius: 5px;
+  color: #434343;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  font-size: 18px;
+  background-image: linear-gradient(135deg, #7cbfce, #adeae8, #7cbfce);
+}

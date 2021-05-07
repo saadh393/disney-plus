@@ -1,0 +1,40 @@
+.watchTheWay {
+  padding: 5rem;
+}
+
+.watchTheWay-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.watchTheWay-image {
+  flex: 1 1 auto;
+}
+
+.watchTheWay-image img {
+  width: 100%;
+}
+
+.watchTheWay-content {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+  justify-content: center;
+  gap: 10px;
+}
+
+.watchTheWay-content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.watchTheWay-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: gray;
+}
+
+.watchTheWay-content small {
+  color: gray;
+}
